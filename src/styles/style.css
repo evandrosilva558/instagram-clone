@@ -138,7 +138,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    background-color: rgb(250, 250, 250);
 }
 .baseboard ul {
     display: flex;
@@ -207,4 +207,171 @@ a {
     font-size: 12px;
     margin: 20px;
     color: rgb(167, 166, 166);
+}
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(250, 250, 250);
+        margin: auto;
+        padding-right: 5%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .phone-logo {
+        display: none;
+    }
+    .phone-logo2 {
+        display: none;
+    }
+    .group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .baseboard {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: rgb(250, 250, 250);
+    }
+    .navbar {
+        padding: 2%;
+        width: 80%;
+    }
+    .navbar a {
+        padding: 2px;
+    }
+    .navbar2 {
+        padding: 2%;
+        width: 80%;
+    }
+    .navbar3 {
+        padding: 2%;
+        width: 50%;
+    }
+    .group {
+        width: 100%;
+    }
+    .whapper {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .form-login {
+        width: 100%;
+    }
+    .connect {
+        width: 100%; 
+    }
+    .form-email {
+        width: 100%;
+    }
+    .password {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    .button-click {
+        width: 100%;
+        justify-content: center;
+    }
+    .button-click img {
+        width: 90%;
+    }
+    .footer-painel {
+        width: 100%;
+    }
+}
+@media (max-width: 950px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(250, 250, 250);
+        margin: auto;
+        padding-right: 5%;
+        padding-left: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .phone-logo {
+        display: none;
+    }
+    .phone-logo2 {
+        display: none;
+    }
+    .group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .baseboard {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: rgb(250, 250, 250);
+    }
+    .navbar {
+        padding: 2%;
+        width: 80%;
+    }
+    .navbar a {
+        padding: 2px;
+    }
+    .navbar2 {
+        padding: 2%;
+        width: 80%;
+    }
+    .navbar3 {
+        padding: 2%;
+        width: 50%;
+    }
+    .group {
+        width: 100%;
+    }
+    .whapper {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .form-login {
+        width: 100%;
+    }
+    .connect {
+        width: 100%; 
+    }
+    .form-email {
+        width: 100%;
+    }
+    .password {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    .button-click {
+        width: 100%;
+        justify-content: center;
+    }
+    .button-click img {
+        width: 90%;
+    }
+    .footer-painel {
+        width: 100%;
+    }
 }
